@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Servicios FISEI - Carrera de Software" />
+  <meta name="author" content="FISEI UTA" />
+  <title>FISEI-UTA - Servicios</title>
+  <script src="../assets/js/color-modes.js"></script>
+  <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <meta name="theme-color" content="#712cf9" />
+  <link href="carousel.css" rel="stylesheet" />
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+
+    .b-example-divider {
+      width: 100%;
+      height: 3rem;
+      background-color: #0000001a;
+      border: solid rgba(0, 0, 0, 0.15);
+      border-width: 1px 0;
+      box-shadow:
+        inset 0 0.5em 1.5em #0000001a,
+        inset 0 0.125em 0.5em #00000026;
+    }
+
+    .nav-scroller {
+      position: relative;
+      z-index: 2;
+      height: 2.75rem;
+      overflow-y: hidden;
+    }
+
+    .nav-scroller .nav {
+      display: flex;
+      flex-wrap: nowrap;
+      padding-bottom: 1rem;
+      margin-top: -1px;
+      overflow-x: auto;
+      text-align: center;
+      white-space: nowrap;
+      -webkit-overflow-scrolling: touch;
+    }
+  </style>
+</head>
+
+<body>
+  <header data-bs-theme="dark">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">FISEI-UTA</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">INICIO</a>
+            </li>
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="anadirservicio">SERVICIOS</a></li>
+            <li class="nav-item"><a class="nav-link" href="contacto.html">CONTACTO</a></li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="BUSCAR" aria-label="Search" />
+            <button class="btn btn-outline-success" type="submit">
+              BUSCAR
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main style="padding-top: 5rem;" class="container my-5">
+    <div class="p-5 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
+      <div class="col-lg-8 px-0">
+        <h1 class="display-4 fst-italic">Servicios de la Carrera de Software</h1>
+        <p class="lead my-3">Ofrecemos diversos recursos, plataformas y consultorías tecnológicas a disposición de
+          nuestros estudiantes y la comunidad técnica vinculada a FISEI.</p>
+      </div>
+    </div>
+
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="col d-flex align-items-start">
+        <div>
+          <h3 class="fs-2 text-body-emphasis">Bolsa de Empleo</h3>
+          <p>Plataforma exclusiva para que estudiantes y graduados puedan enlazar con empresas tecnológicas del país,
+            buscar pasantías y posiciones estratégicas.</p>
+          <a href="#" class="btn btn-primary">Acceder</a>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <div>
+          <h3 class="fs-2 text-body-emphasis">Laboratorios Remotos</h3>
+          <p>Sistema de acceso remoto a los laboratorios de cómputo de alto rendimiento, ideal para entrenamiento de
+            modelos IA, simulación y desarrollo ágil.</p>
+          <a href="#" class="btn btn-primary">Reservar Equipo</a>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <div>
+          <h3 class="fs-2 text-body-emphasis">Tutorías Pares</h3>
+          <p>Programa de acompañamiento académico donde estudiantes destacados apoyan a sus compañeros en materias de
+            desarrollo, algoritmia y bases de datos.</p>
+          <a href="#" class="btn btn-primary">Más información</a>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start mt-5">
+        <div>
+          <h3 class="fs-2 text-body-emphasis">Biblioteca Especializada</h3>
+          <p>Acervo bibliográfico integral disponible para consulta online y local con libros y revistas enfocados en
+            las ciencias de la computación e innovación.</p>
+          <a href="#" class="btn btn-primary">Ver catálogo</a>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start mt-5">
+        <div>
+          <h3 class="fs-2 text-body-emphasis">Emprendimiento Tech</h3>
+          <p>Asesoría inicial, incubadora de ideas y desarrollo de MVPs para impulsar Startups creadas por estudiantes
+            del entorno universitario.</p>
+          <a href="#" class="btn btn-primary">Postular</a>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start mt-5">
+        <div>
+          <h3 class="fs-2 text-body-emphasis">Certificaciones Adicionales</h3>
+          <p>Centros de exámenes y convenios para que obtengas certificaciones Cisco, AWS, Microsoft y Azure dentro del
+            mismo campus.</p>
+          <a href="#" class="btn btn-primary">Inscribirse</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="mt-5 pt-5 text-muted text-center text-small border-top">
+      <p class="mb-1">&copy; 2026 FISEI-UTA</p>
+      <ul class="list-inline">
+        <li class="list-inline-item"><a href="#">Privacidad</a></li>
+        <li class="list-inline-item"><a href="#">Términos</a></li>
+        <li class="list-inline-item"><a href="contacto.html">Soporte</a></li>
+      </ul>
+      <p class="mt-3"><a href="index.html">VOLVER AL INICIO</a></p>
+    </footer>
+  </main>
+  <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
